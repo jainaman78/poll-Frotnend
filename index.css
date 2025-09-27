@@ -1,0 +1,138 @@
+
+:root{
+  --purple1: #7765DA;
+  --purple2: #5767D0;
+  --muted: #6b7280;
+  --card-bg: #ffffff;
+  --page-bg: #f7f7fb;
+}
+
+body{
+  margin:0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background:white;
+  color:#111827;
+}
+
+.container {
+  max-width: 980px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card{
+  background: white;
+
+}
+.h1 {
+  font-size: 32px;
+  margin:0 0 8px 0;
+}
+.h1 .bold { font-weight:700; }
+
+.lead { color:var(--muted); margin-bottom:20px; }
+
+/* form */
+.label { font-weight:600; margin-bottom:8px; display:block; color:#111827; }
+.textarea {
+  width:100%;
+  min-height:88px;
+  border-radius:8px;
+  border:1px solid #e6e6f0;
+  padding:12px;
+  background:#fafafa;
+  resize:vertical;
+  font-size:14px;
+}
+.select {
+  padding:8px 10px;
+  border-radius:8px;
+  border:1px solid #e6e6f0;
+}
+
+/* options list */
+.option-row {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  margin:12px 0;
+}
+.option-number {
+  width:28px;height:28px;border-radius:50%;
+  background:var(--purple1); color:white; display:flex;align-items:center;justify-content:center;
+}
+.option-input {
+  flex:1; padding:10px;border-radius:8px;border:1px solid #eee;background:#fafafa;
+}
+
+/* add option */
+.add-option {
+  display:inline-block;
+  margin-top:8px;
+  border-radius:8px;padding:8px 12px;border:1px dashed var(--purple1);
+  color:var(--purple1);cursor:pointer;
+}
+
+/* footer ask button */
+.footer {
+  display:flex;justify-content:flex-end;margin-top:18px;
+}
+.ask-btn {
+  background: linear-gradient(90deg, #7565D9 0%, #4D0ACD 100%);
+  color:white;border:none;padding:12px 22px;border-radius:999px;font-weight:600;cursor:pointer;
+  box-shadow: 0 8px 24px rgba(99,102,241,0.12);
+}
+
+/* student card */
+.waiting {
+  text-align:center;padding:60px 20px;border-radius:12px;background:#fff;
+}
+.timer {
+  color:#ef4444; font-weight:700; margin-left:10px;
+}
+
+/* results bars */
+.result-row { 
+  display:flex;align-items:center;gap:12px;margin:10px 0; 
+}
+.bar {
+  flex:1;height:22px;border-radius:8px;background:#efefef;position:relative;overflow:hidden;
+}
+.fill {
+  height:100%; background:linear-gradient(90deg,var(--purple1),var(--purple2)); border-radius:8px; text-align:right; padding-right:8px; color:white; font-weight:600;
+}
+.option-label { width:160px; font-weight:600; color:#111827; }
+
+
+.std-ques{
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.ask-btn1{
+  width: 387px;
+  background-color: white;
+  border-color: rgb(230, 230, 230);
+  
+  border-radius: 4px;
+  height: 143PX;
+  text-align:left;
+  
+}
+.ask-btn1:hover{
+  cursor: pointer;
+  border-color: #5767D0;
+}
+.ask-btn1.selected{
+  border: 2px solid #5767D0;
+  
+}
+
+.name-input{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  width: 300px;
+  font-size: 16px;
+}

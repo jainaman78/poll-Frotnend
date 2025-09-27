@@ -1,0 +1,82 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.student-start {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.center-card {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.poll-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.poll-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-box {
+  padding: 14px 20px;
+  border-radius: 10px;
+  background: #eaeaec;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.option-box:hover {
+  background: #e5e7eb;
+}
+
+.option-box.selected {
+  background: white;
+  color: black;
+  border-color: #2563eb;
+}
+
+.submit-btn {
+    width: 233.93408203125px;
+    height: 57.58056640625px;
+    background: #5767d0;
+    border-radius: 34px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-left: 80%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:disabled {
+ width: 233.93408203125;
+height: 57.58056640625;
+opacity: 1;
+top: 651px;
+left: 850px;
+border-radius: 34px;
+
+}
+
+.waiting {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6b7280;
+}
